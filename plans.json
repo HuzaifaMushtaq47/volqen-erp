@@ -1,0 +1,454 @@
+{
+  "_note": "Single source of truth for plans, used by the website build AND the signup server. Prices are null until Volqen confirms them; null prices show as 'Price to be announced'. Limits are PROPOSALS pending confirmation.",
+  "currencies": {
+    "USD": {
+      "symbol": "$",
+      "label": "US Dollar"
+    },
+    "PKR": {
+      "symbol": "Rs ",
+      "label": "Pakistani Rupee"
+    },
+    "AED": {
+      "symbol": "AED ",
+      "label": "UAE Dirham"
+    },
+    "SAR": {
+      "symbol": "SAR ",
+      "label": "Saudi Riyal"
+    },
+    "GBP": {
+      "symbol": "£",
+      "label": "British Pound"
+    },
+    "EUR": {
+      "symbol": "€",
+      "label": "Euro"
+    }
+  },
+  "annualDiscountNote": "Annual billing discount to be confirmed",
+  "plans": [
+    {
+      "id": "starter",
+      "name": "Starter",
+      "tagline": "For small businesses moving off spreadsheets and basic accounting software.",
+      "maxUsers": 5,
+      "maxCompanies": 1,
+      "storageGb": 5,
+      "support": "Email support",
+      "erpModules": [
+        "Accounts",
+        "Selling",
+        "Buying",
+        "Stock",
+        "CRM",
+        "Setup",
+        "Utilities"
+      ],
+      "siteModules": [
+        "accounting-finance",
+        "inventory-warehouse",
+        "procurement",
+        "sales-crm",
+        "business-intelligence"
+      ],
+      "apps": [
+        "erpnext"
+      ],
+      "roles": [
+        "Accounts Manager",
+        "Accounts User",
+        "Sales Manager",
+        "Sales User",
+        "Purchase Manager",
+        "Purchase User",
+        "Stock Manager",
+        "Stock User",
+        "Report Manager"
+      ],
+      "highlights": [
+        "Accounting & invoicing",
+        "Inventory & warehouses",
+        "Sales & purchasing",
+        "CRM pipeline",
+        "Standard reports & dashboards"
+      ],
+      "prices": {
+        "USD": {
+          "monthly": null,
+          "annual": null
+        },
+        "PKR": {
+          "monthly": null,
+          "annual": null
+        },
+        "AED": {
+          "monthly": null,
+          "annual": null
+        },
+        "SAR": {
+          "monthly": null,
+          "annual": null
+        },
+        "GBP": {
+          "monthly": null,
+          "annual": null
+        },
+        "EUR": {
+          "monthly": null,
+          "annual": null
+        }
+      }
+    },
+    {
+      "id": "growth",
+      "name": "Growth",
+      "featured": true,
+      "tagline": "For growing companies with production, projects, teams and approvals.",
+      "maxUsers": 25,
+      "maxCompanies": 3,
+      "storageGb": 25,
+      "support": "Email & WhatsApp support",
+      "erpModules": [
+        "Accounts",
+        "Selling",
+        "Buying",
+        "Stock",
+        "CRM",
+        "Setup",
+        "Utilities",
+        "Manufacturing",
+        "Quality Management",
+        "Projects",
+        "Assets",
+        "Subcontracting",
+        "HR",
+        "Payroll"
+      ],
+      "siteModules": [
+        "accounting-finance",
+        "inventory-warehouse",
+        "procurement",
+        "sales-crm",
+        "business-intelligence",
+        "manufacturing",
+        "quality",
+        "projects",
+        "assets-maintenance",
+        "hr-payroll",
+        "workflow-controls"
+      ],
+      "apps": [
+        "erpnext",
+        "hrms"
+      ],
+      "roles": [
+        "Accounts Manager",
+        "Accounts User",
+        "Sales Manager",
+        "Sales User",
+        "Purchase Manager",
+        "Purchase User",
+        "Stock Manager",
+        "Stock User",
+        "Report Manager",
+        "Manufacturing Manager",
+        "Manufacturing User",
+        "Quality Manager",
+        "Projects Manager",
+        "Projects User",
+        "HR Manager",
+        "HR User"
+      ],
+      "highlights": [
+        "Everything in Starter",
+        "Manufacturing, BOM & work orders",
+        "Quality inspections",
+        "Projects & timesheets",
+        "Fixed assets",
+        "HR & payroll",
+        "Approval workflows"
+      ],
+      "prices": {
+        "USD": {
+          "monthly": null,
+          "annual": null
+        },
+        "PKR": {
+          "monthly": null,
+          "annual": null
+        },
+        "AED": {
+          "monthly": null,
+          "annual": null
+        },
+        "SAR": {
+          "monthly": null,
+          "annual": null
+        },
+        "GBP": {
+          "monthly": null,
+          "annual": null
+        },
+        "EUR": {
+          "monthly": null,
+          "annual": null
+        }
+      }
+    },
+    {
+      "id": "enterprise",
+      "name": "Enterprise",
+      "tagline": "For multi-company groups that need every module, API access and priority support.",
+      "maxUsers": 100,
+      "maxCompanies": 10,
+      "storageGb": 100,
+      "support": "Priority support & onboarding",
+      "erpModules": [
+        "Accounts",
+        "Selling",
+        "Buying",
+        "Stock",
+        "CRM",
+        "Setup",
+        "Utilities",
+        "Manufacturing",
+        "Quality Management",
+        "Projects",
+        "Assets",
+        "Subcontracting",
+        "HR",
+        "Payroll",
+        "Support",
+        "Maintenance",
+        "Website",
+        "Portal"
+      ],
+      "siteModules": [
+        "accounting-finance",
+        "inventory-warehouse",
+        "procurement",
+        "sales-crm",
+        "business-intelligence",
+        "manufacturing",
+        "quality",
+        "projects",
+        "assets-maintenance",
+        "hr-payroll",
+        "workflow-controls"
+      ],
+      "apps": [
+        "erpnext",
+        "hrms"
+      ],
+      "roles": [
+        "Accounts Manager",
+        "Accounts User",
+        "Sales Manager",
+        "Sales User",
+        "Purchase Manager",
+        "Purchase User",
+        "Stock Manager",
+        "Stock User",
+        "Report Manager",
+        "Manufacturing Manager",
+        "Manufacturing User",
+        "Quality Manager",
+        "Projects Manager",
+        "Projects User",
+        "HR Manager",
+        "HR User",
+        "Support Team",
+        "Maintenance Manager",
+        "Website Manager"
+      ],
+      "highlights": [
+        "Everything in Growth",
+        "Up to 10 companies",
+        "Helpdesk & maintenance",
+        "Customer & supplier portal",
+        "REST API access",
+        "Priority onboarding"
+      ],
+      "prices": {
+        "USD": {
+          "monthly": null,
+          "annual": null
+        },
+        "PKR": {
+          "monthly": null,
+          "annual": null
+        },
+        "AED": {
+          "monthly": null,
+          "annual": null
+        },
+        "SAR": {
+          "monthly": null,
+          "annual": null
+        },
+        "GBP": {
+          "monthly": null,
+          "annual": null
+        },
+        "EUR": {
+          "monthly": null,
+          "annual": null
+        }
+      }
+    }
+  ],
+  "countries": [
+    [
+      "Pakistan",
+      "PK",
+      "PKR",
+      "Asia/Karachi"
+    ],
+    [
+      "United Arab Emirates",
+      "AE",
+      "AED",
+      "Asia/Dubai"
+    ],
+    [
+      "Saudi Arabia",
+      "SA",
+      "SAR",
+      "Asia/Riyadh"
+    ],
+    [
+      "Qatar",
+      "QA",
+      "QAR",
+      "Asia/Qatar"
+    ],
+    [
+      "Oman",
+      "OM",
+      "OMR",
+      "Asia/Muscat"
+    ],
+    [
+      "Bahrain",
+      "BH",
+      "BHD",
+      "Asia/Bahrain"
+    ],
+    [
+      "Kuwait",
+      "KW",
+      "KWD",
+      "Asia/Kuwait"
+    ],
+    [
+      "United Kingdom",
+      "GB",
+      "GBP",
+      "Europe/London"
+    ],
+    [
+      "Ireland",
+      "IE",
+      "EUR",
+      "Europe/Dublin"
+    ],
+    [
+      "Germany",
+      "DE",
+      "EUR",
+      "Europe/Berlin"
+    ],
+    [
+      "France",
+      "FR",
+      "EUR",
+      "Europe/Paris"
+    ],
+    [
+      "Netherlands",
+      "NL",
+      "EUR",
+      "Europe/Amsterdam"
+    ],
+    [
+      "United States",
+      "US",
+      "USD",
+      "America/New_York"
+    ],
+    [
+      "Canada",
+      "CA",
+      "CAD",
+      "America/Toronto"
+    ],
+    [
+      "Australia",
+      "AU",
+      "AUD",
+      "Australia/Sydney"
+    ],
+    [
+      "Malaysia",
+      "MY",
+      "MYR",
+      "Asia/Kuala_Lumpur"
+    ],
+    [
+      "Singapore",
+      "SG",
+      "SGD",
+      "Asia/Singapore"
+    ],
+    [
+      "Bangladesh",
+      "BD",
+      "BDT",
+      "Asia/Dhaka"
+    ],
+    [
+      "Sri Lanka",
+      "LK",
+      "LKR",
+      "Asia/Colombo"
+    ],
+    [
+      "Kenya",
+      "KE",
+      "KES",
+      "Africa/Nairobi"
+    ],
+    [
+      "Nigeria",
+      "NG",
+      "NGN",
+      "Africa/Lagos"
+    ],
+    [
+      "South Africa",
+      "ZA",
+      "ZAR",
+      "Africa/Johannesburg"
+    ],
+    [
+      "Egypt",
+      "EG",
+      "EGP",
+      "Africa/Cairo"
+    ],
+    [
+      "Turkey",
+      "TR",
+      "TRY",
+      "Europe/Istanbul"
+    ],
+    [
+      "Other",
+      "OTHER",
+      "USD",
+      "UTC"
+    ]
+  ],
+  "_countries": "[name, ISO code, local (ERP base) currency, timezone]. Billing currency = local currency if listed in 'currencies', otherwise USD."
+}
